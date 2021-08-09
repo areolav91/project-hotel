@@ -1,0 +1,89 @@
+@import "sass/fonts";
+@import "sass/home";
+@import "sass/nav";
+@import "sass/buttons";
+@import "sass/forms";
+
+body {
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #838383);
+}
+
+.contform {
+	margin-top: 100px;
+	justify-content: center;
+}
+
+#contid {
+	display: grid;
+	margin-top: 10px;
+}
+
+#textmessage {
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+}
+
+.container-md {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.messages {
+	display: flex;
+	margin-top: 37px;
+	padding: 5px;
+}
+
+.messages-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 55px;
+	background: rgb(228, 215, 215);
+	margin-bottom: 55px;
+}
+
+.allhotels {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card-img-top {
+	height: 180px;
+	width: 100%;
+	display: block;
+}
+
+.card {
+	margin: 15px;
+}
+
+.infocard {
+	margin: 15px;
+	max-width: 100%;
+}
+
+.allhotels {
+	h1 {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 800px) {
+	.messages {
+		flex-direction: column;
+	}
+
+	.info-row {
+		flex-direction: column;
+	}
+}

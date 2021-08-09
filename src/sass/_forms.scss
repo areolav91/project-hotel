@@ -1,0 +1,74 @@
+.login-form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	text-align: center;
+	padding: 15px;
+
+	input {
+		padding: 15px;
+	}
+
+	button {
+		margin-top: 50px;
+	}
+}
+
+.info-container {
+	display: flex;
+	background: #f8f8f8;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 80px;
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.infoform {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 5%;
+	background: #f8f8f8;
+
+	.EnqForm {
+		margin-top: 2.5%;
+		max-width: 2%;
+	}
+}
+
+.info-row {
+	margin-top: 20px !important;
+	padding: 25px;
+}
+
+.addhotel {
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	height: auto;
+	padding: 15px 15px 15px 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+	form {
+		border: 2px solid black;
+		border-radius: 4px;
+		padding: 15px 15px 15px 15px;
+	}
+
+	button {
+		justify-self: center;
+		margin-top: 10px;
+	}
+}
+
+#loginheader {
+	margin-top: 50px;
+}
